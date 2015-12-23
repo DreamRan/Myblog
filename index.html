@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width-device-width,initial-scale=1" />
+		<title>冉梦博客</title>
+		<link href='http://fonts.useso.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/jquery.fancybox.css">
+		<link rel="stylesheet" href="js/bootstrap-datetimepicker.min.css" />
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/main.css" />
+		<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		<script type="text/javascript" src="js/bootstrap-datetimepicker.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap-datetimepicker.fr.js"></script>
+	</head>
+
+	<body>
+		<header id="navigation" class=" navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<h1 class="navbar-brand">
+					<a href="index.html" class="brand">一本正经耍流氓</a>
+				</h1>
+				</div>
+				<nav class="collapse navbar-collapse navbar-right">
+					<ul id="nav" class="nav navbar-nav" role="navigation">
+						<li><a href="#" class="active">主页</a></li>
+						<li><a href="#">Design</a></li>
+						<li><a href="#">电影</a></li>
+						<li><a href="#">音乐</a></li>
+						<li><a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Geek
+						<span class="caret"></span>
+					   </a>
+							<ul class="dropdown-menu">
+								<li><a href="#">JAVA</a></li>
+								<li><a href="#">Object-c</a></li>
+								<li><a href="#">JavaScript</a></li>
+								<li><a href="#">C&C++</a></li>
+								<li><a href="#">ACM</a></li>
+								<li><a href="#">WEB</a></li>
+								<li><a href="#">PHP</a></li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main>
+
+			<div class="banner">
+
+				<div class="video_wrapper">
+					<video class="video js-background_video " muted="muted" loop="loop" preload="none" autoplay="autoplay">
+						<source type="video/webm; codecs=vp9" src="video/0-vp9.webm"></source>
+					
+					</video>
+				</div>
+				<div class="banner-hover" id="navbar-example">
+					<h1 class="banner-circle">冉梦博客</h1>
+					<h3>生命不息，折腾不止</h3>
+				</div>
+			</div>
+
+			<div class="content">
+				<div class="siderbar">
+
+					<div class="search-value">
+						<form>
+							<div class="form-group">
+								<label class="sr-only" for="search-value">搜索</label>
+								<input type="text" placeholder="Search..." class="form-control" id="search-value" />
+								<span class="glyphicon glyphicon-search m-control-feedback" aria-hidden="true"></span>
+							</div>
+
+						</form>
+					</div>
+					<section>
+						<div class="read-sort">
+
+							<div class="panel panel-default ">
+								<div class="panel-heading" style="background-color: rgb(3,169,244);">
+									<h3>阅读排行</h3></div>
+								<div class="panel-body">
+									<div class="list-group">
+										<a href="#" class="list-group-item ">
+												前端技术及工具概览<span class="badge">65</span>
+											</a>
+										<a href="#" class="list-group-item">html/css规范<span class="badge">10</span></a>
+										<a href="#" class="list-group-item">可视化css typograph<span class="badge">2</span></a>
+										<a href="#" class="list-group-item"> Bootstrap实现的响应式...<span class="badge">32</span></a>
+										<a href="#" class="list-group-item">Sass的用法<span class="badge">1</span></a>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="my-msg">
+
+							<div class="panel panel-default ">
+								<div class="panel-heading">
+									<button class="btn" type="button" data-toggle="collapse" data-target="#my-message" aria-expanded="false" aria-controls="collapseExample">
+										个人信息
+									</button>
+								</div>
+								<div class="panel-body">
+									<div class="collapse" id="my-message">
+										<div class="well">
+											<a href="#"><img src="img/weibo.png">M_林嘉夕</a>
+											<a href="#"><img src="img/qq.png">Phoenix</a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="tag">
+
+							<div class="panel panel-default ">
+								<div class="panel-heading" style="background-color: rgb(244,100,95);">
+									<h3>标签分类</h3></div>
+								<div class="panel-body">
+									<div class="tag-content">
+										<a href="#">JavaScript</a>
+										<a href="#">故事</a>
+										<a href="#">Less</a>
+										<a href="#">励志</a>
+										<a href="#">bootstrap</a>
+										<a href="#">PHP</a>
+										<a href="#">手工设计</a>
+										<a href="#">3D</a>
+										<a href="#">影评</a>
+										<a href="#">民谣在路上</a>
+										<a href="#">B哥-李志</a>
+										<a href="#">好妹妹乐队</a>
+										<a href="#">javaEE</a>
+										<a href="#">javaWeb</a>
+
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="friends">
+							<div class="panel panel-default ">
+								<div class="panel-heading" style="background-color: #33CC66">
+									<h3>友情链接</h3></div>
+							</div>
+						</div>
+				</div>
+				</section>
+
+				<div class="article-list">
+					<article class="one">
+						<div class="panel panel-default">
+							<div class="panel-heading " style="background-color: white">
+								<h3 class="text-info"><a href="blog.html">与寂寞有染，与爱情无关</a></h3>
+							</div>
+							<div class="panel-body">
+								<p>哥们儿老杨给我讲了他哥们儿的故事： Y和T是一对中年夫妻。和大部分70年代初出生的人一样，按部就班的恋爱结婚、成家立业。但这不妨碍他们是令人艳羡的一对壁人。Y高大英俊年轻有为...
+
+								</p>
+							</div>
+							<div class="panel-footer">
+								<ul>
+									<li>阅读量<small>50</small></li>
+									<li>评论<small>50</small></li>
+									<li>赞<small>50</small></li>
+								</ul>
+							</div>
+						</div>
+
+					</article>
+
+					<article class="two">
+						<div class="panel panel-default">
+							<div class="panel-heading " style="background-color: white">
+								<h3 class="text-info"><a href="#">前端技术及工具概览</a></h3>
+							</div>
+							<div class="panel-body">
+								<p>在2007到2010年期间，涌现了3种开发潮流： 第一个是智能手机和移动应用潮流。通常情况下，许多应用程序同时有web和移动应用两种版本。尽管如此，服务端仍然返回的是HTML页面，而不是其它移动应用可以识别。因此，你需要返回的是结构化数据来取代HTML...
+
+								</p>
+							</div>
+							<div class="panel-footer">
+								<ul>
+									<li>阅读量<small>50</small></li>
+									<li>评论<small>50</small></li>
+									<li>赞<small>50</small></li>
+								</ul>
+							</div>
+						</div>
+
+					</article>
+
+					<article class="three">
+						<div class="panel panel-default">
+							<div class="panel-heading " style="background-color: white">
+								<h3 class="text-info"><a href="#">前端技术及工具概览</a></h3>
+							</div>
+							<div class="panel-body">
+								<p>在2007到2010年期间，涌现了3种开发潮流： 第一个是智能手机和移动应用潮流。通常情况下，许多应用程序同时有web和移动应用两种版本。尽管如此，服务端仍然返回的是HTML页面，而不是其它移动应用可以识别。因此，你需要返回的是结构化数据来取代HTML...
+
+								</p>
+							</div>
+							<div class="panel-footer">
+								<ul>
+									<li>阅读量<small>50</small></li>
+									<li>评论<small>50</small></li>
+									<li>赞<small>50</small></li>
+								</ul>
+							</div>
+						</div>
+
+					</article>
+
+					<article class="four">
+						<div class="panel panel-default">
+							<div class="panel-heading " style="background-color: white">
+								<h3 class="text-info"><a href="#">前端技术及工具概览</a></h3>
+							</div>
+							<div class="panel-body">
+								<p>在2007到2010年期间，涌现了3种开发潮流： 第一个是智能手机和移动应用潮流。通常情况下，许多应用程序同时有web和移动应用两种版本。尽管如此，服务端仍然返回的是HTML页面，而不是其它移动应用可以识别。因此，你需要返回的是结构化数据来取代HTML...
+
+								</p>
+							</div>
+							<div class="panel-footer">
+								<ul>
+									<li>阅读量<small>50</small></li>
+									<li>评论<small>50</small></li>
+									<li>赞<small>50</small></li>
+								</ul>
+							</div>
+						</div>
+
+					</article>
+					<article class="five">
+						<div class="panel panel-default">
+							<div class="panel-heading " style="background-color: white">
+								<h3 class="text-info"><a href="#">前端技术及工具概览</a></h3>
+							</div>
+							<div class="panel-body">
+								<p>在2007到2010年期间，涌现了3种开发潮流： 第一个是智能手机和移动应用潮流。通常情况下，许多应用程序同时有web和移动应用两种版本。尽管如此，服务端仍然返回的是HTML页面，而不是其它移动应用可以识别。因此，你需要返回的是结构化数据来取代HTML...
+
+								</p>
+							</div>
+							<div class="panel-footer">
+								<ul>
+									<li>阅读量<small>50</small></li>
+									<li>评论<small>50</small></li>
+									<li>赞<small>50</small></li>
+								</ul>
+							</div>
+						</div>
+
+					</article>
+					<nav>
+						<ul class="pagination">
+							<li>
+								<a href="#" aria-label="Previous">
+									<span aria-hidden="true">&laquo;</span>
+								</a>
+							</li>
+							<li class="active"><a href="#">1</a> </li>
+							<li><a href="#">2</a> </li>
+							<li><a href="#">3</a> </li>
+							<li><a href="#">4</a> </li>
+							<li><a href="#">5</a> </li>
+							<li>
+								<a href="#" aria-label="Next">
+									<span aria-hidden="true">&raquo;</span>
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</main>
+
+		<footer class="index_footer">
+			<div class="company">
+				<p>Copyright <small>&copy;</small> 2015 <span> 冉梦博客 </span></p>
+			</div>
+		</footer>
+		<script type="text/javascript" src="https://rawgithub.com/WickyNilliams/headroom.js/master/dist/headroom.js"></script>
+		<script type="text/javascript" src="https://rawgithub.com/WickyNilliams/headroom.js/master/src/jQuery.headroom.js"></script>
+		<script type="text/javascript">
+			$(".navbar-fixed-top").headroom();
+		</script>
+	</body>
+
+</html>
